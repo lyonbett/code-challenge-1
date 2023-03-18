@@ -5,25 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@600&family=Righteous&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/style.css">
+
 </head>
 <body>
 
+
     <!-- Student Grade Generator -->
     <div class="student_grade">
-        <h1>Student Grade Generator</h1>
-        <button onclick="mymarks()">Enter Marks</button>
+        <h1 class="titles">Student Grade Generator</h1>
+        <button class="btn" onclick="mymarks()">Enter Marks</button>
+        <div id="marks_results">
+            <p id="grade_answer"> </p>
+        </div>
     </div>
 
     <!-- Speed Detector -->
     <div id="speed">
-        <h1>Speed Detector</h1>
-        <button>Calculate Speed</button>
+        <h1 class="titles">Speed Detector</h1>
+        <button class="btn" onclick="calculateSpeed()">Calculate Speed</button>
     </div>
 
     <!-- Net Salary Calculator -->
     <div class="salary">
-        <h1>Net Salary Calculator</h1>
+        <h1 class="titles">Net Salary Calculator</h1>
+        <button class="btn" onclick="calculateSalary()">Calculate Salary</button>
+
     </div>
 
     <script src="./scripts/script.js"></script>

@@ -6,34 +6,60 @@ margin: 0px;
 }
 
 body{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+font-family: 'Righteous', cursive;
 }
-button{
+.titles{
+    font-size: 45px;
+    text-align: center;
+}
+.btn{
     padding: 10px;
     background-color: green;
+    text-align: center;
     color: white;
     border: unset;
+margin: 80px;
+    font-size: 20px;
+    border-radius: 10px;
 }
 
 /* student grade generator */
 .student_grade{
 border: 1px solid red;
-margin: 20px;
+margin: 2px;
 padding: 20px;
+width: 30%;
+float: left;
+min-height: 30vh;
+text-align: center;
+border-radius: 20px;
 
+}
+#grade_answer{
+    font-size: 20px;
 }
 
 /* Speed Detector */
 #speed{
     border: 1px solid green;
-margin: 20px;
+margin: 2px;
 padding: 20px;
+width: 30%;
+float: left;
+min-height: 30vh;
+border-radius: 20px;
 
 }
 /* Net Salary Calculator*/
 .salary{
     border: 1px solid black;
-margin: 20px;
+margin: 2px;
 padding: 20px;
+width: 30%;
+float: left;
+min-height: 30vh;
+border-radius: 20px;
+text-align: center;
 
 }
