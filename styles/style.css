@@ -23,7 +23,9 @@ margin: 80px;
     font-size: 20px;
     border-radius: 10px;
 }
-
+.resultholder{
+    height:30px;font-weight: 600;width:100%;text-align: center;
+}
 /* student grade generator */
 .student_grade{
 border: 1px solid red;
