@@ -35,10 +35,23 @@ function mymarks(){
 
 //  Speed Detector
 function calculateSpeed(){
+    let max=70;
 
+    let currentSpeed=document.getElementById('ssss').value;
+    let points= (currentSpeed-max)/5;
+    if(points<1){
+        result='Ok';
+    }
+    else if(points>12){
+        result='License Suspended';
+    }
+    else{
+        result='points: '+points;
+    }
+document.getElementById('result').innerText=result;
 }
 // Net Salary Calculator
 
 function calculateSalary(){
-    
+
 }
