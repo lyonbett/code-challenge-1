@@ -1,1 +1,2 @@
-# code-challenge-week1
+# Project Title: Student Grade Generator
+
