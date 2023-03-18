@@ -1,0 +1,39 @@
+/* general css */
+
+*{
+padding: 0px;
+margin: 0px;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+button{
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border: unset;
+}
+
+/* student grade generator */
+.student_grade{
+border: 1px solid red;
+margin: 20px;
+padding: 20px;
+
+}
+
+/* Speed Detector */
+#speed{
+    border: 1px solid green;
+margin: 20px;
+padding: 20px;
+
+}
+/* Net Salary Calculator*/
+.salary{
+    border: 1px solid black;
+margin: 20px;
+padding: 20px;
+
+}
