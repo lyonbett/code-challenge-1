@@ -13,10 +13,9 @@
     <link rel="stylesheet" href="./styles/style.css">
 
 </head>
-<body>
-
-
-    <!-- Student Grade Generator -->
+<div>
+<div style="width:100%;height:350px;">
+    <!-- Student Grade Ge;nerator -->
     <div class="student_grade">
         <h1 class="titles">Student Grade Generator</h1>
         <button class="btn" onclick="mymarks()">Enter Marks</button>
@@ -34,14 +33,21 @@
 
         <div class="resultholder" id="speedResult"><div id="result"></div></div>
     </div>
-
+</div><br>
+<div style="width:100%;">
     <!-- Net Salary Calculator -->
     <div class="salary">
         <h1 class="titles">Net Salary Calculator</h1>
-        <button class="btn" onclick="calculateSalary()">Calculate Salary</button>
-
+        <p>
+            Gross Salary<br/>
+        <input type="number" id="salary" placeholder="Gross Salary" style="height:30px;width:300px"><br/>
+        Benefits<br/>
+        <input type="number" id="benefit" placeholder="Benefits" value="0" style="height:30px;width:300px"><br/>
+        <button class="net_btn" onclick="calculatealary()">Calculate Net Salary</button></p>
+        <p id="netsalary" style="font-weight:bold;"></p>
     </div>
+</div>  
 
-    <script src="./scripts/script.js"></script>
 </body>
+<script src="./scripts/script.js"></script>
 </html>
