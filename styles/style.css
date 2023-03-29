@@ -8,8 +8,8 @@ margin: 0px;
 body{
     font-family: 'Edu NSW ACT Foundation', cursive;
 font-family: 'Righteous', cursive;
-background-color:rgb(12, 12, 11);
-color: rgb(40, 235, 14);
+background-color:darkslategray;
+color: cyan;
 }
 .titles{
     font-size: 45px;
@@ -17,7 +17,7 @@ color: rgb(40, 235, 14);
 }
 .btn{
     padding: 10px;
-    background-color:blue;
+    background-color:red;
     text-align: center;
     color: white;
     border: unset;
@@ -28,11 +28,11 @@ margin: 80px;
 
 .net_btn{
     padding: 10px;
-    background-color: green;
+    background-color: rgb(243, 44, 18);
     text-align: center;
     color: white;
     border: unset;
-margin: 10px 80px;
+    margin: 10px 80px; 
     font-size: 20px;
     border-radius: 10px;
 }
@@ -41,7 +41,7 @@ margin: 10px 80px;
 }
 /* student grade generator */
 .student_grade{
-border: 1px solid;white;
+border: 1px solid white;
 margin: 2px;
 padding: 20px;
 width: 47.5%;
